@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parrent {
+    position: relative;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+.child {
+    display: inline-block;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.container {
+    display: grid;
+    /* flex-direction: column-reverse; */
+    padding: 5px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.container > .item {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+/* digiatl */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+    font-family: "Nunito";
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.container-1 {
+    width: 50%;
+    background-color: rgb(193, 193, 193);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    display: inline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul > li:hover {
+    background-color: rgb(195, 255, 231);
+}
